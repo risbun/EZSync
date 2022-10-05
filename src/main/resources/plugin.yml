@@ -1,0 +1,11 @@
+name: EZSync
+version: '${version}'
+main: com.github.risbun.ezsync.Main
+api-version: 1.19
+author: ThaCheeseBun
+load: STARTUP
+softdepend: [LuckPerms, Vault]
+permissions:
+  ezsync.bypass:
+    description: Bypass EZSync
+    default: op
